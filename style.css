@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+/* Header styling */
+.header-section {
+  background-image: url(./images/desktop/image-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-logo-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 25px 0px 25px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+a,
+ul,
+li {
+  display: flex;
+  text-decoration: none;
+}
+
+a {
+  color: hsl(0, 0%, 100%);
+}
+
+.btn-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.text-color {
+  color: black;
+  text-transform: uppercase;
+}
+
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 100px;
+  font-family: "Fraunces";
+}
+
+.arrow-logo {
+  position: absolute;
+  bottom: 165px;
+}
+
+.sweet-orange {
+  width: 900px;
+  height: 400px;
+}
+
+/* Main styling */
+.company-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-testimonial {
+  display: flex;
+  flex-direction: row;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+h3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-view {
+  width: 337px;
+}
+
+/* Footer styling */
+.footer-card {
+  background-color: hsl(168, 34%, 41%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.link-color {
+  color: hsl(167, 40%, 24%);
+}
+
+.social-media {
+  margin-bottom: 35px;
+}
+
+.logo-foo {
+  margin-top: 50px;
+}
